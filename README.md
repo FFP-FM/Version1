@@ -84,9 +84,9 @@ H0 <- mle_curve(pheno=dat$phenotype,times=dat$time)
 
 ret <- mle_H1(dat,times=dat$time)
 
-#ret matrix includes LR , L1and parameters of covariance matrix and equations. Each row of the ret matrix is the result of hypothesis #test for each SNP, similar to the initial parameters. The second column is the LR value of all SNP, which can be map Manhattan plot. 
+#ret matrix includes LR , L1and parameters of covariance matrix and equations. Each row of the ret matrix is the result of hypothesis test for each SNP, similar to the initial parameters. The second column is the LR value of all SNP, which can be map Manhattan plot. 
 
-#[1] Ma, C. X., Casella, G., & Wu, R. (2002). Functional mapping of quantitative trait loci underlying the character process: a #theoretical framework. Genetics, 161(4), 1751-1762.
+#[1] Ma, C. X., Casella, G., & Wu, R. (2002). Functional mapping of quantitative trait loci underlying the character process: a theoretical framework. Genetics, 161(4), 1751-1762.
 
 
 
