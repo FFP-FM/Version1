@@ -52,6 +52,7 @@ H0 <- mle_curve(pheno=dat$phenotype,times=dat$time)
 #H0 is a list include the initial parameters of covariance matrix and Legendre's polynomiials.
 
 ######## Genome scan ############################
+
 ret <- mle_H1(dat,times=dat$time)
 
 #ret matrix includes LR , L1and parameters of covariance matrix and equations. Each row of the ret matrix is the result of hypothesis #test for each SNP, similar to the initial parameters. The second column is the LR value of all SNP, which can be map Manhattan plot. 
