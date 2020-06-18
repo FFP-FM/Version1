@@ -37,6 +37,7 @@ setwd("~/code/")
 library(mvtnorm) #Available on CRAN
 source("FP_sup.R") 
 ######## Load data for genotype file and phenotype file ###################
+
 dat <- data.load(pheno="pheno.csv",marker="genotype.csv",time=1:31)
 
 #fw.dat.load function has three arguments, including # 1)pheno indicates phenotype file; 2) marker indicates genotype file; 3)time indicates time point of the actual measurement.
