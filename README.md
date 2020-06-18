@@ -47,6 +47,7 @@ dat <- data.load(pheno="pheno.csv",marker="genotype.csv",time=1:31)
 #2) Vector (time point or other indicator variable): time.
 
 ######## Null hypothesis#########################
+
 H0 <- mle_curve(pheno=dat$phenotype,times=dat$time)
 
 #H0 is a list include the initial parameters of covariance matrix and Legendre's polynomiials.
